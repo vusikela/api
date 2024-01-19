@@ -17,7 +17,7 @@ public class Test123 {
                      get("/workspaces").
                 then().
                     log().all().
-                    assertThat().
+                    //assertThat().
                     statusCode(200);
 
     }
